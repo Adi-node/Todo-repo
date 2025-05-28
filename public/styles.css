@@ -1,0 +1,105 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    height: 100vh;
+    width: 100vw;
+    padding: 4rem;
+    background: #2D3250;
+}
+
+.sign-up, .todo{
+    background-color: #F9F5EB;
+    border: 3px solid #2D3250;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin:40px;
+    padding: 20px;
+    gap: 1rem;
+    /* height: 65%; */
+    width: 25%;
+    border-radius: 20px;
+}
+
+.sign-up h2,.todo h2{
+    font-size: 2rem;
+}
+
+.but{
+    cursor: pointer;
+    width: 100%;
+    height: 30px;
+    border-radius: 10px;
+    background: #F6B17A;
+    color: #2D3250;
+    border: none;
+    transition: background 0.2s;
+}
+
+.but:hover {
+    background: #2D3250;
+    color: #F6B17A;
+}
+
+.sign-up input, .todo input{
+    width: 100%;
+    height: 30px;
+    border-radius: 10px;
+    border: 1px solid black;
+    padding-left: 12px;
+}
+
+.toggle{
+    display: none;
+}
+
+#toggle-in:hover,#toggle-up{
+    cursor: pointer;
+}
+
+.todo-text span{
+    border: 1px solid black;
+    width: 100%;
+    background-color: white;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.todo ul{
+    width: 100%;
+    padding: 0;
+    list-style: none;
+}
+
+.todo ul li{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 8px 0;
+    background: #F9F5EB;
+    padding: 8px 12px;
+    border-radius: 8px;
+    border: 1px solid #2D3250;
+    word-break: break-word;      
+    white-space: normal;         
+    flex-wrap: wrap; 
+}
+
+.todo ul button {
+    background: #F6B17A;
+    color: #2D3250;
+    border: none;
+    border-radius: 6px;
+    padding: 4px 12px;
+    cursor: pointer;
+    margin-left: 12px;
+    margin-top: 5px;
+}

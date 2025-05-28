@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="sign-up">
+            <h2 class="up">Sign up</h2>
+            <h2 class="in toggle">Sign In</h2>
+            <input type="text" placeholder="Username" id="username" required>
+            <input type="password" placeholder="Password" id="password" required>
+            <button id="btn-up" class="but up">Sign Up</button>
+            <button id="btn-in" class="but in toggle" >Sign In</button>
+            <span class="up">Already have an account? <u id="toggle-in">Sign-In</u></span>
+            <p class="in toggle">Do not have an account? <u id="toggle-up">Sign-Up</u></p>
+        </div>
+
+        <div class="todo toggle">
+            <h2>Todos</h2>
+            <input type="text" placeholder="Enter todo..." id="todo">
+            <button class="but">Add Todo</button>
+            <ul>
+            </ul>
+            <button class="but" id="logOut-but">Log Out</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
