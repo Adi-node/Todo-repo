@@ -6,6 +6,6 @@ This is a simple Todo List application and my first ever Git repository. The app
 ### How to use
 1. Start the server by running the following command in your terminal:
 
-node index.js
+    >node index.js
 
 2. Open the index.html file in your web browser to access the application.
